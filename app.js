@@ -89,7 +89,7 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
       var params = {in_reply_to_status_id: nameID, status: '@' + name + " " + randomberniemessage, media_ids: [mediaIdStr] }
 
       T.post('statuses/update', params, function (err, data, response) {
-        console.log("Replied to Bernie's Tweet")
+        console.log("Replied to Bernie's Tweet with " + randomberniemessage)
 		})
       }
     })
@@ -115,7 +115,7 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
       var params = {in_reply_to_status_id: nameID, status: '@' + name + " " randomhulkmessage, media_ids: [mediaIdStr] }
 
       T.post('statuses/update', params, function (err, data, response) {
-        console.log("Replied to Hulk's Tweet")
+        console.log("Replied to Hulk's Tweet with " + randomhulkmessage)
 		})
       }
     })

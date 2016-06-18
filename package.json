@@ -1,0 +1,17 @@
+{
+  "name": "polibug",
+  "version": "1.0.0",
+  "description": "A bot that bugs politicians and others",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "twit": "^2.2.4",
+    "lowdb": "^0.12.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "awfuljack",
+  "license": "ISC"
+}

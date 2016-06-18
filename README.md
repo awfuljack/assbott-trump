@@ -1,4 +1,4 @@
-# assbott-trump
+# polibug
 
 Some wanted to see the code for Assbott and here is the portion that replies to poltiicians and other people I want to bug.
 

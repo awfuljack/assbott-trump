@@ -26,7 +26,7 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
   // now we can assign alt text to the media, for use by screen readers and
   // other text-based presentations and interpreters
   var mediaIdStr = data.media_id_string
-  var altText = "Small flowers in a planter on a sunny balcony, blossoming."
+  var altText = "There isn't actually much point to this but whatever"
   var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } }
   var nameID = tweet.id_str;
   var name = tweet.user.screen_name;
@@ -52,7 +52,7 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
   // now we can assign alt text to the media, for use by screen readers and
   // other text-based presentations and interpreters
   var mediaIdStr = data.media_id_string
-  var altText = "Small flowers in a planter on a sunny balcony, blossoming."
+  var altText = "There isn't actually much point to this but whatever"
   var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } }
   var nameID = tweet.id_str;
   var name = tweet.user.screen_name;
@@ -78,7 +78,7 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
   // now we can assign alt text to the media, for use by screen readers and
   // other text-based presentations and interpreters
   var mediaIdStr = data.media_id_string
-  var altText = "Small flowers in a planter on a sunny balcony, blossoming."
+  var altText = "There isn't actually much point to this but whatever"
   var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } }
   var nameID = tweet.id_str;
   var name = tweet.user.screen_name;
